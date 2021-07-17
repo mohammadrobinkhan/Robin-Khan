@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+input:focus {
+	outline: 0;
+}
+
+/*start header area*/
+.header {
+	height: 75px;
+	background: #ddd;
+}
+.logo{}
+.logo a{}
+.logo a img {
+	width: 135px;
+	height: 41px;
+	margin-top: 10px;
+}
+/*End header area*/
+
+/*start search baar*/
+.search-bar{}
+.search-bar form{}
+.search-bar form input {
+	width: 100%;
+	position: relative;
+	top: 11px;
+	height: 50px;
+	padding: 0px 20px;
+	border-radius: 5px;
+	border: none;
+	background: #F5F5F5;
+}
+.search-bar form button {
+	position: absolute;
+	right: 15px;
+	top: 11px;
+	height: 50px;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	background: #F57224;
+}
+/*End search baar*/
+
+/*start ards-area*/
+.ards-area {
+	position: relative;
+}
+.ards-area .cart {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.ards-area .cart a {
+	font-size: 25px;
+	color: #222;
+}
+
+.offer {
+	position: absolute;
+	top: -16px;
+	right: 0;
+}
+.offer a{}
+.offer a img {
+	width: 61%;
+	margin-left: 163px;
+}
+/*End ards-area*/
+
+/*start side bar ards-area*/
+.side-baar {
+	background: #D9EBDF;
+}
+.side-baar_items {}
+.side-baar_items nav {
+	width: 240px;
+	background: #fff;
+	padding: 10px 10px;
+}
+.side-baar_items nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	text-decoration: none;
+}
+.side-baar_items nav ul li{
+	position: relative;
+}
+.side-baar_items nav ul li:hover {
+	background: #DDDDDD;
+	cursor: pointer;
+}
+.side-baar_items nav ul li a {
+	overflow: hidden;
+	display: inline-block;
+	padding: 2px 18px;
+	color: #757575;
+	font-size: 13px;
+	text-decoration: none;
+}
+.side-baar_items nav ul li a i {
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	visibility: hidden;
+	opacity: 0;
+	color: #4F9CB7;
+	font-size: 20px;
+}
+.side-baar_items nav ul li:hover > a i{visibility: visible; opacity: 1;}
+.side-baar_items nav ul li:hover > a{color: #4F9CB7;}
+.side-baar_items nav ul .submenu {
+	position: absolute;
+	left: 100%;
+	top: -10px;
+	background: #fff;
+	width: 200px;
+	height: 385px;
+	padding: 9px 6px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s;
+	box-shadow: 0px 1px 1px 1px #D0D0D0;
+}
+.side-baar_items nav ul li:hover > .submenu{visibility: visible; opacity: 1;}
+.side-baar_items nav ul .submenu li {
+	margin-left: -6px;
+}
+.side-baar_items nav ul .submenu li a{}
+
+
+.side-baar_items nav ul .submenu li .submenu {
+	top: -9px;
+}
+.side-baar_items nav ul .submenu li .submenu li{}
+.side-baar_items nav ul .submenu li .submenu .submenu li{background: none;}
+/*start side bar ards-area*/
